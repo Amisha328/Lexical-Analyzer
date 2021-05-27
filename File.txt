@@ -1,0 +1,7 @@
+int sum ( ) 
+{ 
+ int A , B , C ;
+ cin >> A >> B ; 
+ C = A + B ; 
+ cout << C ; 
+ }
