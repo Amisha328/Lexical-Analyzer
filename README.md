@@ -44,4 +44,4 @@ Assumptions, that I have made while writting code for lexical analyzer in C++ ar
 - [x] **Pre-processor Directives:** `include`
 - [x] **Library:** `iostream` 
 
-### Note: This is a Lexical Analyzer for a `sum of numbers program in C++` explained under [Assumptions:](#assumptions) . It may not be able to generate tokens for all other programs.
+> #### Note: This is a Lexical Analyzer for a `sum of numbers program in C++` explained under [Assumptions:](#assumptions) . It may not be able to generate tokens for all other programs.
