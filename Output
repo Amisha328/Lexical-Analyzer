@@ -1,6 +1,6 @@
 token (#  , SPECIAL SYMBOLS)
-token (include  , ID, pointer to symbol table)
-token (iostream  , ID, pointer to symbol table)
+token (include  , PRE-PROCESSOR DIRECTIVE)
+token (iostream  , LIBRARY)
 token (using  , KEYWORD)
 token (namespace  , KEYWORD)
 token (std  , KEYWORD)
