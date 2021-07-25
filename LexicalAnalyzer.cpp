@@ -34,8 +34,8 @@ int main()
 
         {"\\;|\\,|\\{|\\}|\\(|\\)|\\,|\\(|\\)|\\#", " SPECIAL SYMBOLS"},
         {"int|cin|cout|using|namespace|std"," KEYWORD"},
-        {"\\iinclude", " PRE-PROCESSOR DIRECTIVE"},
-        {"\\iiostream"," LIBRARY"},
+        {"\\include", " PRE-PROCESSOR DIRECTIVE"},
+        {"\\iostream"," LIBRARY"},
         {"\\=|\\+|\\>>|\\<<",  " OPERATOR"},
         {"[a-z][a-z][a-z]+"," ID, pointer to symbol table"},
         {"[A-Z]+"," VAR, pointer to symbol table"},
