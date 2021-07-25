@@ -41,3 +41,5 @@ Assumptions, that I have made while writting code for lexical analyzer in C++ ar
 - [x] **Special Symbol:** `;` `,` `{` `}` `(` `)`
 - [x] **Operators:** `+` `=` `>>` `<<`
 - [x] **Identifies:** `Single character` or sequence of `letters followed by letters or digits` like `sum` `A`  `B`  `C`.
+- [x] **Pre-processor Directives:** `include`
+- [x] **Library:** `iostream` 
