@@ -17,7 +17,8 @@ In this project, Lexical Analyzer reads the input from the `input.txt` file and 
 `Pattern` are the set of rules for formation of tokens from input character.
 
 `Lexemes` are a sequence of char in source program matched by a pattern for a token.
- e.g., Pascal statement const pi = 3.1416;
+
+e.g., Pascal statement const pi = 3.1416;
 the substring pi is a lexeme from the token “identifier”
 
 When talking about lexical analysis, we use the terms "token," "pattern," and "lexeme" with specific meanings. 
@@ -32,4 +33,9 @@ When talking about lexical analysis, we use the terms "token," "pattern," and "l
 2. Striping out comments and whitespace.
 3. Making copy of source program with error message marked in it.
 
+## Assumptions
 
+Assumptions, that I have made while writting code for lexical analyzer in C++ are:
+
+- [x] Keyword: `int`, `cin`, `cout`
+- [ ] Special Symbol: `;` `{` `}` `(` `)` `,`
