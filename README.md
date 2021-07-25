@@ -43,3 +43,5 @@ Assumptions, that I have made while writting code for lexical analyzer in C++ ar
 - [x] **Identifies:** `Single character` or sequence of `letters followed by letters or digits` like `sum` `A`  `B`  `C`.
 - [x] **Pre-processor Directives:** `include`
 - [x] **Library:** `iostream` 
+
+### Note: This is a Lexical Analyzer for a `sum of numbers program in C++` explained under [Assumptions:](#assumptions) . It may not be able to generate tokens for all other programs.
