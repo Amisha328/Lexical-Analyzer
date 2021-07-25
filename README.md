@@ -10,7 +10,7 @@ In this project, Lexical Analyzer reads the input from the `input.txt` file and 
 ![image](https://user-images.githubusercontent.com/58816552/126887075-a9666d5d-c81f-4eae-a690-2eda8967f7dd.png)
 
 
-## Tokens, Patterns, Lexemes
+## Tokens, Patterns & Lexemes
 
 `Tokens` are the sequence of characters that can be treated as a unit/single logical entity.
 
@@ -25,5 +25,11 @@ When talking about lexical analysis, we use the terms "token," "pattern," and "l
 ### Examples of Tokens
 
 ![toekn (1)](https://user-images.githubusercontent.com/58816552/126888680-06cf04ad-b97c-433b-a334-5c4f6d9557e2.png)
+
+## Task of Lexical Analyzer
+
+1. Generating a sequence of tokens.
+2. Striping out comments and whitespace.
+3. Making copy of source program with error message marked in it.
 
 
