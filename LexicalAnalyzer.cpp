@@ -32,14 +32,14 @@ int main()
 
     map<string,string> patterns {
 
-        {"\\int|\\ccin+|\\ccout", " KEYWORD"},
-        { "[a-z][a-z][a-z]+"," ID, pointer to symbol table"},
-        { "[A-Z]+"," VAR, pointer to symbol table"},
-        { "\\*|\\+|\\>>|\\<<"," OPERATOR"},
-        { "\\;|\\,|\\{|\\}|\\(|\\)|\\,|\\(|\\)", " SPECIAL SYMBOLS"},
+        {"\\;|\\,|\\{|\\}|\\(|\\)|\\,|\\(|\\)|\\#", " SPECIAL SYMBOLS"},
+        {"int|cin|cout|using|namespace|std"," KEYWORD"},
+        {"\\iinclude", " PRE-PROCESSOR DIRECTIVE"},
+        {"\\iiostream"," LIBRARY"},
+        {"\\=|\\+|\\>>|\\<<",  " OPERATOR"},
+        {"[a-z][a-z][a-z]+"," ID, pointer to symbol table"},
+        {"[A-Z]+"," VAR, pointer to symbol table"},
         {"[ ]","SPACE"}
-             
-
     };
 
     map< size_t, pair<string,string> > matches;
@@ -68,5 +68,3 @@ int main()
     }
     return 0;
 }
-
-    
