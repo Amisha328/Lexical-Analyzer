@@ -37,5 +37,7 @@ When talking about lexical analysis, we use the terms "token," "pattern," and "l
 
 Assumptions, that I have made while writting code for lexical analyzer in C++ are:
 
-- [x] Keyword: `int`, `cin`, `cout`
-- [ ] Special Symbol: `;` `{` `}` `(` `)` `,`
+- [x] **Keyword:** `int` `cin` `cout`
+- [x] **Special Symbol:** `;` `,` `{` `}` `(` `)`
+- [x] **Operators:** `+` `=` `>>` `<<`
+- [x] **Identifies:** `Single character` or sequence of `letters followed by letters or digits` like `sum` `A`  `B`  `C`.
