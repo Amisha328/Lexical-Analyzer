@@ -36,7 +36,7 @@ int main()
         { "[a-z][a-z][a-z]+"," ID, pointer to symbol table"},
         { "[A-Z]+"," VAR, pointer to symbol table"},
         { "\\*|\\+|\\>>|\\<<"," OPERATOR"},
-        { "\\;|\\{|\\}|\\(|\\)|\\,|\\(|\\)", " SPECIAL SYMBOLS"},
+        { "\\;|\\,|\\{|\\}|\\(|\\)|\\,|\\(|\\)", " SPECIAL SYMBOLS"},
         {"[ ]","SPACE"}
              
 
